@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@import 'flowbite';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Base button and input styles reused throughout the app */
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white rounded px-3 py-1 hover:bg-blue-700;
+  }
+  .btn-secondary {
+    @apply bg-gray-600 text-white rounded px-3 py-1 hover:bg-gray-700;
+  }
+  .input-base {
+    @apply bg-gray-700 text-white border border-gray-500 rounded px-2 py-1;
+  }
+}
