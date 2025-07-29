@@ -10,15 +10,17 @@
     "lint": "echo 'no lint configured'"
   },
   "dependencies": {
+    "@kepler.gl/components": "^3.1.8",
+    "@kepler.gl/reducers": "^3.1.8",
+    "@kepler.gl/processors": "^3.1.8",
+    "@kepler.gl/middleware": "^3.1.8",
+    "mapbox-gl": "^3.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "flowbite": "^3.1.2",
-    "@kepler.gl/components": "^2.6.0",
-    "@kepler.gl/react": "^2.6.0",
-    "@kepler.gl/processors": "^2.6.0",
     "redux": "^5.0.0",
     "react-redux": "^9.1.0",
-    "styled-components": "^6.0.5"
+    "styled-components": "^6.1.8",
+    "flowbite": "^3.1.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.6.0",
